@@ -1,0 +1,45 @@
+SQL> select name, open_mode from v$database;
+
+NAME      OPEN_MODE                                                             
+--------- --------------------                                                  
+PPROTRAN  READ WRITE                                                            
+
+SQL> alter session set current_schema=ACEAPP;
+
+Session altered.
+
+SQL> @synonym.sql;
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+SQL> spool off;
